@@ -1,16 +1,7 @@
 import { category_1, category_2, category_3, category_4, stockmarket, math } from "../assets/images";
-import { course_1, maths, stocks, pharma } from "../assets/images";
+import { course_1, maths, stocks, pharma} from "../assets/images";
 
-// const Team = [
-//   { id: 1, name: 'Keshav Thakur', age: 16, src: keshav, work: 'Turn the website into react, making the home page, login page' },
-//   { id: 2, name: 'Abhay Sagar', age: 15, src: abhay , work: 'make the services page, about page'},
-//   { id: 3, name: 'Anurag Kumar', age: 17, src: anurag, work: ' create a api service for geolocation services'},
-//   { id: 4, name: 'Abhinav Sagar', age: 16, src: abhinav, work: 'crousal page' },
-//   { id: 5, name: 'Aman Verma', age: 15, src: aman, work: 'create the image and other graphics part'},
-//   { id: 6, name: 'Prashik Humane', age: 17, src: prashik, work: 'make the contact page'},
-//   { id: 7, name: 'Kritika Yadav', age: 16, src: kritika, work: 'make a payment page' },
-//   { id: 8, name: 'Anushka', age: 16, src: anushka, work: 'make a footer page' },
-// ];
+
 
 const cardData = [
   {
@@ -82,7 +73,9 @@ const course = [
     - Introduce core JavaScript concepts like DOM manipulation, and event handling.
     - Explore advanced CSS features like flexbox, grid, and media queries for creating responsive layouts.
     - Teach asynchronous JavaScript, form validation, and AJAX to create interactive and dynamic web experiences.`],
-    videoId: 'https://youtu.be/htznIeWKgg8?si=2RK_9YZmPFf9RzQl',
+    videoId1: 'https://youtu.be/htznIeWKgg8?si=2RK_9YZmPFf9RzQl',
+    videoId2: 'https://youtu.be/kUMe1FH4CHE?si=jj_T5cNkVenmydid',
+
   },
   {
     id: 2,
@@ -91,17 +84,16 @@ const course = [
     price: 4000.00,
     img: pharma,
     level: "Intermediate",
-    heading: "Advanced Machile Learning",
+    heading: "pharma advance course ",
     instructor: "Medha Bhardwaj",
-    course_decs: `- Delve into advanced topics and practical applications to elevate your understanding and proficiency in machine learning.
-    -Harness Dr. Chen's extensive expertise as he shares invaluable insights and real-world examples garnered from years of experience in the field.
-    -Master the fundamentals of various machine learning algorithms, including regression, classification, clustering, and deep learning.
-    -Acquire hands-on experience through interactive exercises, case studies, and simulated projects to reinforce theoretical concepts and enhance your problem-solving skills.
-    -Benefit from personalized mentorship and feedback from Dr. Chen to refine your approach and achieve success in applying machine learning algorithms to diverse real-world scenarios.`,
-    course_structure: [`Covering basic concepts, algorithms, and supervised/unsupervised learning paradigms
-    - Exploring deep learning, natural language processing, and computer vision applications
-    - model evaluation, optimization, and considerations for deploying models in real-world scenarios.`],
-    videoId: 'https://youtu.be/ukzFI9rgwfU?si=2Kr4Ux1CINOt-EtK',
+    course_decs: `- Explore advanced topics and practical applications to deepen your understanding and proficiency in pharmaceutical sciences.
+    -Harness Dr.Patel's wealth of expertise as he imparts invaluable insights and real-world examples derived from years of hands-on experience in the field.
+    -Master the fundamentals of drug discovery, development, regulation, and pharmacology through comprehensive study and practical exercises.`,
+    course_structure: [`Foundational Principles in Pharmaceutical Sciences.
+    -Advanced Applications in Pharma Technologies
+    -Evaluation, Optimization, and Deployment Strategies`],
+    videoId1: 'https://youtu.be/CHJsaq2lNjU?si=4aKT8wzGfzDUjGvC',
+    videoId2: 'https://youtu.be/JxK5rZxbyQY?si=E3fVDLHTENGfH8PC',
 
   },
   {
@@ -122,7 +114,9 @@ const course = [
     course_structure: [`Overview of financial markets
     - Introduction to stock exchanges and trading platforms
     - Understanding market participants and their roles`],
-    videoId: 'https://www.youtube.com/watch?v=rL4DdTOHc0A',
+    videoId1: 'https://youtu.be/p7HKvqRI_Bo?si=qiejLS-hm1OA7qP_',
+    videoId2: 'https://youtu.be/fzp02ud0AHc?si=e_Wf7YTdiPV4GGte',
+
 
   },
   {
@@ -140,7 +134,9 @@ const course = [
     course_structure: [`Covering arithmetic, algebra, geometry, and data interpretation.
     - Exploring real-world examples to reinforce understanding.
     - Receive tailored support and engage in hands-on exercises to master concepts effectively.`],
-    videoId: 'https://youtu.be/__Uw1SXPW7s?si=njtKP1M9OMFW88y3',
+    videoId1: 'https://youtu.be/__Uw1SXPW7s?si=njtKP1M9OMFW88y3',
+    videoId2: 'https://youtu.be/mvOkMYCygps?si=CNRFE6gcxgr2mKBu',
+    
 
   }
 ]
