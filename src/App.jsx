@@ -11,6 +11,7 @@ import Header from './sections/Header'
 import Footer from './sections/Footer'
 import WebRTC from './sections/WebRTC'
 import PeerChat from './sections/WebRtc2'
+import Resource from './sections/Resources'
 import { useEffect } from 'react'
 
 import { course } from './Components/data'
@@ -34,6 +35,7 @@ function App() {
         <Route path='/WebRTC' element={<WebRTC />} />
         <Route path='/WebRTC/peerchat' element={<PeerChat />} />
         <Route path='/contact' element={<Contact/>} />
+        <Route path='/resource' element={<Resource/>} />
         <Route path='/login' element={<Login/>} />
         <Route path='/login/signup' element={<Signup/>} />
         <Route path='/courses' element={<Courses/>} />

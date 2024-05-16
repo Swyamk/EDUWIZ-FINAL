@@ -32,6 +32,9 @@ const Header = (props) => {
               <NavLink to="courses">Courses</NavLink>
             </li>
             <li className='hover:text-[#1BB699]'>
+              <NavLink to="resource">Resource</NavLink>
+            </li>
+            <li className='hover:text-[#1BB699]'>
               <NavLink to="contact">Contact</NavLink>
             </li>
             <li className='hover:text-[#1BB699]'>
