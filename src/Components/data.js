@@ -79,7 +79,7 @@ const course = [
   },
   {
     id: 2,
-    title: "Get the Certificate in Machine Learning Algorithms",
+    title: "Get the Certificate in Pharmaceuticals",
     rating: 4.5,
     price: 4000.00,
     img: pharma,

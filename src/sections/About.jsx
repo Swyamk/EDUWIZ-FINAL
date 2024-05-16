@@ -4,7 +4,7 @@ import safiya from '../assets/images/safiya.jpg';
 import medha from '../assets/images/medha.jpg';
 import eshant from '../assets/images/eshant.jpg';
 import prateek from '../assets/images/prateek.jpg';
-// import Bhumika from '../assets/images/swyam.jpg';
+import aditya from '../assets/images/aditya.jpg';
 
 
 const AboutUs = () => (
@@ -76,6 +76,10 @@ const AboutUs = () => (
         <div className="text-center">
           <img src={prateek} alt="prateek" className="w-72 h-72 rounded-3xl transform transition duration-300 hover:scale-110 shadow-lg" />
           <h4 className="text-white mt-2 font-bold">Prateek Mishra</h4>
+        </div>
+        <div className="text-center">
+          <img src={aditya} alt="aditya" className="w-72 h-72 rounded-3xl transform transition duration-300 hover:scale-110 shadow-lg" />
+          <h4 className="text-white mt-2 font-bold">Aditya Chandel</h4>
         </div>
         {/* <div className="text-center">
           <img src={Rahul} alt="rahul" className="w-72 h-72 rounded-3xl transform transition duration-300 hover:scale-110 shadow-lg" />
