@@ -22,33 +22,33 @@ const Resource = () => {
       case 'one':
         return (
           <>
-            {addResource('Computational Thinking and Programming', 'Description for Resource 1')}
+            {addResource('Computational Thinking and Programming', 'Computational Thinking and Programming" teaches problem-solving through breaking down complex issues into manageable parts and implementing solutions using programming languages like C/C++.')}
             {addResource('Previous Year Papers', 'Description for Resource 1')}
-            {addResource('Database Management Systems', 'Description for Resource 2')}
+            {addResource('Database Management Systems', 'Database Management System (DBMS) teaches us to manage and organize data, allowing users to store, retrieve, update, and manipulate data efficiently.')}
           </>
         );
       case 'two':
         return (
           <>
-            {addResource('Computer Architecture and Organization', 'Description for Resource 1')}
+            {addResource('Data Structures', 'The Data Structures subject covers the study of organizing and managing data effectively to perform operations efficiently.')}
             {addResource('Question Bank for Data Structures', 'Description for Resource 1')}
-            {addResource('Object Oriented Programming and Systems', 'Description for Resource 2')}
+            {addResource('Object Oriented Programming and Systems', 'Object-Oriented Programming (OOP) in Java focuses on building software by organizing code into objects, each representing a real-world entity.')}
           </>
         );
       case 'three':
         return (
           <>
-            {addResource('Theory of Computation', 'Description for Resource 1')}
+            {addResource('Software Engineering', 'Software Engineering involves applying systematic, disciplined, and quantifiable approaches to develop, operate, and maintain software systems efficiently.')}
             {addResource('Dynamic Programming', 'Description for Resource 2')}
-            {addResource('Theory of Automata', 'Description for Resource 1')}
+            {addResource('Theory of Automata', 'The Theory of Automata explores mathematical models of computation, focusing on abstract machines called automata.')}
           </>
         );
       case 'four':
         return (
           <>
-            {addResource('Discrete Mathematics', 'Description for Resource 1')}
-            {addResource('Theory of Computation', 'Description for Resource 1')}
-            {addResource('Compiler Design', 'Description for Resource 2')}
+            {addResource('Discrete Mathematics', 'Discrete Mathematics deals with mathematical structures that are distinct and countable, rather than continuous.')}
+            {addResource('Modern Programming Language', 'Modern Programming Language (Python) is a versatile, high-level programming language known for its simplicity and readability.')}
+            {addResource('Compiler Design', 'Compiler Design focuses on creating software systems that translate high-level programming languages into machine code or intermediate code for execution on a computer.')}
           </>
         );
       default:
