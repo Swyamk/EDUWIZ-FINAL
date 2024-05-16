@@ -31,7 +31,7 @@ const Course = () => {
                       <h1 className='text-xl text-left px-4 font-serif'>{course.title}</h1>
                       <p className='text-gray-500'>{course.desc}</p>
                       <div className='text-left pl-4 font-serif'>⭐⭐⭐⭐⭐ {" "} ({course.rating} / 5 Rating)</div>
-                      <div className='text-left pl-4 text-red-600 font-serif pb-8'>${course.price}.00</div>
+                      <div className='text-left pl-4 text-red-600 font-serif pb-8'>₹{course.price}.00</div>
                     </div>
                   
                   </div>

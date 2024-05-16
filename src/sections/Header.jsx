@@ -17,8 +17,8 @@ const Header = (props) => {
           <h1 className='text-2xl '>
             <Link to="">
 
-              <span className='font-bold font-serif'>SkillXcel</span>
-              <span className=' font-sans font-thin'>Academy</span>
+              <span className='font-bold font-serif'>Edu</span>
+              <span className=' font-sans font-thin'>Wiz</span>
             </Link>
           </h1>
           <ul className='flex gap-10 font-semibold invisible lg:visible absolute md:relative  font-mono text-slate-700  items-center justify-center'>
