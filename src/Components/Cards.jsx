@@ -1,5 +1,6 @@
 import React from 'react'
 import { cardData } from './data'
+import {Link} from 'react-router-dom'
 import Button from './Button'
 const Cards = () => {
   return (
@@ -15,7 +16,7 @@ const Cards = () => {
                 <div className='p-4'>
                   <h3 className='text-xl  px-4 py-4 font-thin'>{card.title}</h3>
                   <p className='px-2 py-2 text-gray-700'>{card.desc}</p>
-                  <button className='bg-[#1BB699] text-white px-4 py-2  mt-2 rounded-md mb-4'>Explore</button>
+                  <Link to={card.url} ><button className='bg-[#1BB699] text-white px-4 py-2  mt-2 rounded-md mb-4'>Explore</button></Link>
                 </div>
               </div>
             )

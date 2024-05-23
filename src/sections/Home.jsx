@@ -25,7 +25,7 @@ const Home = (props) => {
                   </>
                 ) : (
                   <>
-                    <h1 className='lg:text-4xl font-serif font-extralight text-5xl justify-center py-7'>Please! login</h1>
+                    <h1 className='lg:text-4xl font-serif font-extralight text-5xl justify-center py-7'></h1>
                   </>
                 )
               }
@@ -35,11 +35,16 @@ const Home = (props) => {
               <br />Exchange
             </h1>
             <p className='py-4 text-xl'>
-              Excepteur sint occaecat cupidatat non proident sunt in <br /> culpa qui officia deserunt mollit.
+            <div style={{ textAlign: 'center', padding: '20px' }}>
+  <h1 style={{ fontSize: '2rem', color: '#1BB699', fontWeight: 'bold' }}>Unlock Your Potential,</h1>
+  <h1 style={{ fontSize: '2rem', color: '#FF6B6B', fontWeight: 'bold' }}>Embrace Learning,</h1>
+  <h1 style={{ fontSize: '2rem', color: '#5A67D8', fontWeight: 'bold' }}>and Shape Your Future Today!</h1>
+</div>
+
             </p>
             <div className=''>
 
-              <Link to={props.name ? `/courses` : `/login`} >
+              <Link to='/courses' >
                 <Button text='Find courses' className="" />
               </Link>
             </div>
@@ -65,7 +70,6 @@ const Home = (props) => {
       <section className='px-4 mt-28 '>
         <h2 className='text-center text-red-500 font-mono my-5'>CATEGORIES</h2>
         <h1 className='text-center text-5xl font-serif font-light py-4'>Online <span className='text-[#1BB699]'>Classes</span> For Remote Learning.</h1>
-        <p className='text-center text-slate-500 pt-3 font-mono'>Consectetur adipiscing elit sed do eiusmod tempor.</p>
 
         <div>
           <Cards />
