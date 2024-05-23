@@ -9,14 +9,16 @@ const cardData = [
     title: "Software Engineer Programs",
     img: category_1,
     color: "green",
-    desc: "lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    desc: "The Software Engineering program delves into advanced software design, development, and lifecycle management.",
+    url:"https://www.coursera.org/learn/introduction-to-software-engineering"
   },
   {
     id: 2,
     title: "App Development Programs",
     img: category_2,
     color: "red",
-    desc: "lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    desc: "The App Development program focuses on creating robust, user-friendly mobile and web applications",
+    url:"https://www.coursera.org/professional-certificates/meta-android-developer    "
 
   },
   {
@@ -24,7 +26,8 @@ const cardData = [
     title: "UI/UX Design",
     img: category_3,
     color: "blue",
-    desc: "lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    desc: "The UI/UX Design program emphasizes crafting intuitive and engaging user interfaces and experiences.",
+    url:"https://www.interaction-design.org/courses/mobile-ux-design-course-the-beginners-guide?gad_source=1&gclid=EAIaIQobChMIg4b0m5OkhgMVucBMAh36kQ86EAAYBCAAEgLZdPD_BwE    "
 
   },
   {
@@ -32,7 +35,8 @@ const cardData = [
     title: "Pharma Course",
     img: category_4,
     color: "yellow",
-    desc: "lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    desc: "The Pharma course provides comprehensive knowledge of pharmaceutical sciences, including drug development, pharmacology, and clinical trials. ",
+    url:"https://pharmcourse.com/mena/en    "
 
   },
   {
@@ -40,7 +44,8 @@ const cardData = [
     title: "Stock Market Programs",
     img: stockmarket,
     color: "purple",
-    desc: "lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    desc: "Stock Market programs offer in-depth understanding of financial markets, trading strategies, and investment analysis. ",
+    url:"https://www.coursera.org/learn/financial-markets-global    "
 
   },
   {
@@ -48,7 +53,8 @@ const cardData = [
     title: "Mathematics Course   /Programs",
     img: math,
     color: "pink",
-    desc: "lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    desc: "Mathematics programs provide a rigorous foundation in theoretical and applied mathematics",
+    url:"https://oxfordsummercourses.com/?utm_term=maths%20summer%20programs&utm_campaign=India_generic_broad&utm_source=google&utm_medium=cpc&gad_source=1&gclid=EAIaIQobChMIyvvPl5SkhgMVm_RMAh3N1w-xEAAYASAAEgJpC_D_BwE "
   }
 ];
 
@@ -62,7 +68,7 @@ const course = [
     img: course_1,
     level: "Advanced",
     heading: "Advanced JavaScript",
-    instructor: "Safiya Nasir",
+    instructor: "Abdul Bari",
     course_decs: `- Cover fundamental HTML tags and CSS styling techniques for layout, typography, and interactivity under the expert guidance of Safiya.A expert software developer.
     - Explore in-depth topics and practical applications to enhance your tdevelopment skills .
     - Benefit from Medha's wealth of experience and expertise as she shares valuable insights and real-world examples from her extensive career in software development.
